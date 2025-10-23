@@ -1,0 +1,45 @@
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcomma failed with the following output:
+Change Dir: /home/sean-mz/Downloads/Spelunky/spelunky-psp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_24a47/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_24a47.dir/build.make CMakeFiles/cmTC_24a47.dir/build
+gmake[1]: Entering directory '/home/sean-mz/Downloads/Spelunky/spelunky-psp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24a47.dir/src.c.o
+/usr/bin/cc -DFLAG_SUPPORTED_Wcomma  -std=c99 -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wc++-compat    -Wcomma -o CMakeFiles/cmTC_24a47.dir/src.c.o -c /home/sean-mz/Downloads/Spelunky/spelunky-psp/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-Wcomma'; did you mean '-Wcomment'?
+gmake[1]: *** [CMakeFiles/cmTC_24a47.dir/build.make:78: CMakeFiles/cmTC_24a47.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/sean-mz/Downloads/Spelunky/spelunky-psp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_24a47/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wmissingvariabledeclarations failed with the following output:
+Change Dir: /home/sean-mz/Downloads/Spelunky/spelunky-psp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0a635/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0a635.dir/build.make CMakeFiles/cmTC_0a635.dir/build
+gmake[1]: Entering directory '/home/sean-mz/Downloads/Spelunky/spelunky-psp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a635.dir/src.c.o
+/usr/bin/cc -DFLAG_SUPPORTED_Wmissingvariabledeclarations  -std=c99 -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wc++-compat -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wmissing-variable-declarations -o CMakeFiles/cmTC_0a635.dir/src.c.o -c /home/sean-mz/Downloads/Spelunky/spelunky-psp/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-Wmissing-variable-declarations'; did you mean '-Wmissing-declarations'?
+gmake[1]: *** [CMakeFiles/cmTC_0a635.dir/build.make:78: CMakeFiles/cmTC_0a635.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/sean-mz/Downloads/Spelunky/spelunky-psp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0a635/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wusedbutmarkedunused failed with the following output:
+Change Dir: /home/sean-mz/Downloads/Spelunky/spelunky-psp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7bb2a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7bb2a.dir/build.make CMakeFiles/cmTC_7bb2a.dir/build
+gmake[1]: Entering directory '/home/sean-mz/Downloads/Spelunky/spelunky-psp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bb2a.dir/src.c.o
+/usr/bin/cc -DFLAG_SUPPORTED_Wusedbutmarkedunused  -std=c99 -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wc++-compat -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wused-but-marked-unused -o CMakeFiles/cmTC_7bb2a.dir/src.c.o -c /home/sean-mz/Downloads/Spelunky/spelunky-psp/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-Wused-but-marked-unused'
+gmake[1]: *** [CMakeFiles/cmTC_7bb2a.dir/build.make:78: CMakeFiles/cmTC_7bb2a.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/sean-mz/Downloads/Spelunky/spelunky-psp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7bb2a/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libEntityRegistry.a CMakeFiles/EntityRegistry.dir/src/EntityRegistry.cpp.o
+/usr/bin/ranlib libEntityRegistry.a

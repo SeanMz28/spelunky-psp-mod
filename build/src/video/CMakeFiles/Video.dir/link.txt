@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVideo.a CMakeFiles/Video.dir/src/Video.cpp.o CMakeFiles/Video.dir/src/Video_Desktop.cpp.o CMakeFiles/Video.dir/src/ScopedImguiContext.cpp.o
+/usr/bin/ranlib libVideo.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAssets.a CMakeFiles/Assets.dir/src/AssetsVirtualFilesystem.cpp.o CMakeFiles/Assets.dir/generated/VirtualFileIndex.cpp.o CMakeFiles/Assets.dir/src/Paths.cpp.o CMakeFiles/Assets.dir/src/Assets.cpp.o
+/usr/bin/ranlib libAssets.a

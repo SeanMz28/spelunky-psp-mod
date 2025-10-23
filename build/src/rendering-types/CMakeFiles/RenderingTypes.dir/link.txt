@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRenderingTypes.a CMakeFiles/RenderingTypes.dir/src/Quad.cpp.o
+/usr/bin/ranlib libRenderingTypes.a

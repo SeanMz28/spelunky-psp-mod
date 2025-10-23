@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTime.a CMakeFiles/Time.dir/src/Timestep_SDL1.cpp.o
+/usr/bin/ranlib libTime.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTextureBank.a CMakeFiles/TextureBank.dir/src/TextureBank.cpp.o CMakeFiles/TextureBank.dir/src/TextureRegion.cpp.o
+/usr/bin/ranlib libTextureBank.a

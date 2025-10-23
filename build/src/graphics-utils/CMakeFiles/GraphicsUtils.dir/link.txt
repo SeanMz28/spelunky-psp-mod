@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGraphicsUtils.a CMakeFiles/GraphicsUtils.dir/src/CreateTexture.cpp.o CMakeFiles/GraphicsUtils.dir/src/LookAt.cpp.o
+/usr/bin/ranlib libGraphicsUtils.a

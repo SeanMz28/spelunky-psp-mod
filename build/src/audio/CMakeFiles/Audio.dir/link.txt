@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAudio.a CMakeFiles/Audio.dir/src/Audio_SDL_mixer.cpp.o
+/usr/bin/ranlib libAudio.a
